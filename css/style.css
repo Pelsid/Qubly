@@ -174,7 +174,7 @@ input{
     top: -167px;
     left: -81px;
     transform: rotate(-5deg);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 31%, rgb(227 241 255) 66%)
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 31%, rgb(227 241 255) 66%);
     z-index: 6;
 }
 
