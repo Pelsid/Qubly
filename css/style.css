@@ -112,6 +112,11 @@ input{
 .header__link {
     flex-basis: 20%;
     text-align: center;
+    transition: all 0.3s;
+}
+
+.header__link:hover{
+    text-shadow: 1px 1px 3px #000;
 }
 
 .header__drop-span {
@@ -135,6 +140,13 @@ input{
     border-radius: 20px;
     color: #722ED1;
     border: 1px solid #722ED1;
+    transition: all 0.7s;
+}
+
+.header__link--border>a:hover{
+    border: 1px solid #722ED1;
+    color: #fff;
+    background-color: #722ED1;
 }
 
 
@@ -738,10 +750,7 @@ padding-top: 14px;
 border-top: 1px solid #c0c0c0;
 }
 
-.feedback__login-span{
-
-color: #717171;
-}
+.feedback__login-span{color:#717171;}
 
 .feedback__login-link{
     
