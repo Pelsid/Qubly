@@ -100,6 +100,12 @@ input{
     color: #000;
     font-weight: 600;
     font-size: 14px;
+    transition: all 0.5s;
+    border-bottom: 1px solid #fff;
+}
+
+.header__link>a:hover{
+   border-bottom: 1px solid #000; 
 }
 
 .header__links-list {
@@ -113,10 +119,7 @@ input{
     flex-basis: 20%;
     text-align: center;
     transition: all 0.3s;
-}
-
-.header__link:hover{
-    text-shadow: 1px 1px 3px #000;
+    position: relative;
 }
 
 .header__drop-span {
@@ -125,11 +128,36 @@ input{
     cursor: pointer;
 }
 
-.header__drop-list {
-    display: none;
+.header__drop-span:after{
+    content: "<";
+    transform: rotate(-90deg);
+    display: inline-block;
+    position: relative;
+    left: 8px;
+    font-size: 17px;
 }
 
-.header__item {}
+.header__drop-span:hover + .header__drop-list{
+    display: block;
+}
+
+.header__drop-list {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 23px;
+}
+
+.header__drop-list:hover{
+    display: block;
+}
+
+.header__item {padding: 5px 0px;}
+
+.header__item > a{
+    color: #000;
+    font-weight: 600;
+}
 
 .header__link--border {
     flex-basis: 35%;
