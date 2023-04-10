@@ -834,4 +834,5 @@ button.footer__submit {
     top: 48px;
     right: 8px;
     background-color: #fff;
+    cursor: pointer;
 }
