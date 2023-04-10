@@ -52,6 +52,7 @@ body {
 
 input{
     outline: none;
+    
 }
 
 .container {
@@ -707,7 +708,6 @@ input{
     padding: 14px 13px;
     border-radius: 5px;
     font-size: 17px;
-    color: #fff;
     border: 1px solid #6b6b6b;
     background-color: #ffffff;
 }
