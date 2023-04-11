@@ -1187,6 +1187,15 @@ button.footer__submit {
     .header__link {
         margin: 30px 0px;
         left: -40px;
+        font-size: 20px;
+    }
+    
+    .header__drop-span {
+        font-size: 20px;
+    }
+    
+    .header__link>a {
+        font-size: 20px;
     }
 
     .header__drop-list {
