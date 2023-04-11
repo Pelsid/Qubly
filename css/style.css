@@ -1021,9 +1021,10 @@ button.footer__submit {
         top: -20px;
     }
 
-    .team__text {
+    .team .team-content .team__text {
         margin-top: 50px;
         flex-basis: 100%;
+        transform: translateZ(0);
     }
 
     .explanation__list {
