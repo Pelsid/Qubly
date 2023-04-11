@@ -1190,6 +1190,7 @@ button.footer__submit {
     }
 
     .header__drop-list {
+        top: 20px;
         background-color: #fff;
         z-index: 1;
     }
