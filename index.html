@@ -13,7 +13,7 @@
 
 <body>
 
-	<header class="header">
+	<header id="header-menu" class="header">
 		<div class="container">
 			<div class="header__content">
 				<div class="header__logo-wrap logo">
@@ -38,6 +38,13 @@
 			</div>
 		</div>
 	</header>
+
+	<div id="menu-hamburger" class="menu-btn" onclick="showMenu ()">
+		<div class="menu-btn__line"></div>
+		<div class="menu-btn__line"></div>
+		<div class="menu-btn__line"></div>
+	</div>
+
 	<section class="first-section">
 		<div class="container">
 			<div class="first-section__content">
@@ -65,7 +72,7 @@
 	<section class="explanation">
 		<div class="container">
 			<div class="explanation__grouping">
-				<div data-aos="fade-down" class="explanation__centralized">
+				<div data-aos-duration="1500" data-aos="fade-down" class="explanation__centralized">
 					<div class="explanation__inline-wrap">
 						<div class="colored-wrapper">
 							<img class="colored-wrapper__img" src="./img/icon-svg/Icon awesome-eye.svg" alt="eye">
@@ -73,14 +80,14 @@
 						</div>
 					</div>
 				</div>
-				<div data-aos="fade-down" class="explanation__description">
+				<div data-aos-duration="1500" data-aos="fade-down" class="explanation__description">
 					<h2 class="explanation__heading">Get actionable insights from Big Data in 3 steps</h2>
 					<p class="explanation__description-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing
 						elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
 						voluptua.</p>
 				</div>
 				<div class="explanation__list">
-					<div data-aos="flip-left" class="explanation__item">
+					<div data-aos-duration="1500" data-aos="flip-left" class="explanation__item">
 						<div class="explanation__img-wrap explanation__img-wrap--blue">
 							<img class="explanation__item-img" src="./img/icon-svg/Group 18.svg" alt="">
 						</div>
@@ -88,7 +95,7 @@
 						<p class="explanation__list-paragraph">Collect processed & cleansed data that is ready to be
 							analyzed to gather valuable business insights.</p>
 					</div>
-					<div data-aos="flip-up" class="explanation__item">
+					<div data-aos-duration="1500" data-aos="flip-up" class="explanation__item">
 						<div class="explanation__img-wrap explanation__img-wrap--red">
 							<img class="explanation__item-img" src="./img/icon-svg/Group 19.svg" alt="">
 						</div>
@@ -96,7 +103,7 @@
 						<p class="explanation__list-paragraph">With the help of powerful algorithms, quality rules &
 							techniques, obtain simplified & enriched data.</p>
 					</div>
-					<div data-aos="flip-right" class="explanation__item">
+					<div data-aos-duration="1500" data-aos="flip-right" class="explanation__item">
 						<div class="explanation__img-wrap explanation__img-wrap--green">
 							<img class="explanation__item-img" src="./img/icon-svg/Group 15.svg" alt="">
 						</div>
@@ -112,7 +119,7 @@
 	<section class="team">
 		<div class="container">
 			<div class="team-content">
-				<div data-aos="zoom-in" class="team__circle">
+				<div data-aos-duration="1500" data-aos="fade-right" class="team__circle">
 					<div class="team__first-ring">
 						<div class="team__ring-img team__ring-snowflake"><img
 								src="./img/icon-svg/psolv output_Snowflake.svg" alt=""></div>
@@ -135,7 +142,7 @@
 						<div class="team__ring-img team__orbit-img"><img src="./img/icon-svg/Group 14.svg" alt=""></div>
 					</div>
 				</div>
-				<div data-aos="fade-left" class="team__text">
+				<div data-aos-duration="1500" data-aos="fade-left" class="team__text">
 					<div class="explanation__inline-wrap">
 						<div class="colored-wrapper">
 							<img class="colored-wrapper__img" src="./img/icon-svg/electronic-circuit.svg" alt="">
@@ -153,7 +160,8 @@
 	<section class="data-driven">
 		<div class="container">
 			<div class="data-driven__content">
-				<div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="data-driven__text">
+				<div data-aos-duration="1500" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+					class="data-driven__text">
 					<div class="explanation__inline-wrap">
 						<div class="colored-wrapper">
 							<img class="colored-wrapper__img" src="./img/icon-svg/compass.svg" alt="">
@@ -165,7 +173,8 @@
 						straight-forward
 						deployments that are powered by a modern & scalable platform.</p>
 				</div>
-				<div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="data-driven__img-wrap">
+				<div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500"
+					class="data-driven__img-wrap">
 					<img class="data-driven__img" src="./img/average-png/connections.png" alt="">
 				</div>
 			</div>
@@ -175,16 +184,17 @@
 	<section class="qubly">
 		<div class="container">
 			<div class="qubly__content">
-				<p data-aos="fade-up" class="qubly__paragraph">"What I love about Qubly is the easy way we can collaborate even if there is
+				<p data-aos-duration="1500" data-aos="fade-up" class="qubly__paragraph">"What I love about Qubly is the
+					easy way we can collaborate even if there is
 					a lot of people involved
 					in the process"</p>
-				<div data-aos-anchor-placement="center-center" class="qubly__cto">
+				<div data-aos-duration="1500" data-aos-anchor-placement="center-center" class="qubly__cto">
 					<div class="qubly__img-wrap">
 						<img class="qubly__img" src="./img/average-png/men.png" alt="men">
 					</div>
 					<span class="qubly__abot-cto">Guillaume Cabane CTO @ BigSpring</span>
 				</div>
-				<div data-aos="flip-down" class="qubly__companies-list">
+				<div data-aos-duration="1000" data-aos="flip-down" class="qubly__companies-list">
 					<div class="qubly__company"><img src="./img/icon-svg/Tonkean.svg" alt=""></div>
 					<div class="qubly__company"><img src="./img/icon-svg/BigSpring.svg" alt=""></div>
 					<div class="qubly__company"><img src="./img/icon-svg/Clearbit.svg" alt=""></div>
@@ -198,7 +208,7 @@
 	<section class="feedback">
 		<div class="container">
 			<div class="feedback__content">
-				<div data-aos="fade-right" class="feedback__text">
+				<div data-aos-duration="1500" data-aos="fade-right" class="feedback__text">
 					<h2 class="feedback__heading">See why the world’s best companies use Qubly to become truly
 						data-driven.</h2>
 					<div class="feedback__separator">
@@ -219,7 +229,7 @@
 				</div>
 				<div class="feedback__wrap-form">
 					<div class="feedback__shadow"></div>
-					<div data-aos="zoom-in" class="feedback__form">
+					<div data-aos-duration="1500" data-aos="zoom-in" class="feedback__form">
 						<form action="#">
 							<h2 class="feedback__form-heading">Sign Up</h2>
 							<input class="feedback__colored-input" type="submit" value="Start your free trial">
@@ -235,7 +245,8 @@
 									src="./img/icon-svg/btn_google_signin_dark_normal_web@2x.svg" alt=""></a>
 						</div>
 						<div class="feedback__login">
-							<span class="feedback__login-span">Already have an account? </span><a class="feedback__login-link" href="#">Login</a>
+							<span class="feedback__login-span">Already have an account? </span><a
+								class="feedback__login-link" href="#">Login</a>
 						</div>
 					</div>
 				</div>
@@ -246,21 +257,21 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__links">
-				<div class="footer__about">
-					<img src="./img/icon-svg/Logo.svg" alt="logo">
-					<p class="footer__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-						nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad
-						minim</p>
-					<div class="footer__social-media">
-						<a class="footer__social-link" href="#"><img src="./img/icon-svg/facebook-icon.svg"
-								alt="facebook"></a>
-						<a class="footer__social-link" href="#"><img src="./img/icon-svg/twitter-3.svg"
-								alt="twitter"></a>
-						<a class="footer__social-link" href="#"><img src="./img/icon-svg/instagram-2016.svg"
-								alt="instagram"></a>
-					</div>
-				</div>
 				<div class="footer__column-links">
+					<div class="footer__column-item footer-about">
+						<img src="./img/icon-svg/Logo.svg" alt="logo">
+						<p class="footer__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+							nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad
+							minim</p>
+						<div class="footer__social-media">
+							<a class="footer__social-link" href="#"><img src="./img/icon-svg/facebook-icon.svg"
+									alt="facebook"></a>
+							<a class="footer__social-link" href="#"><img src="./img/icon-svg/twitter-3.svg"
+									alt="twitter"></a>
+							<a class="footer__social-link" href="#"><img src="./img/icon-svg/instagram-2016.svg"
+									alt="instagram"></a>
+						</div>
+					</div>
 					<div class="footer__column-item">
 						<h3 class="footer__heading-item">Product</h3>
 						<ul class="footer__list-links">
@@ -307,7 +318,8 @@
 						<h3 class="footer__heading-item">Newsletter</h3>
 						<form action="#">
 							<input class="footer__input" type="email" name="NEWSLETTER" placeholder="Email">
-							<button class="footer__submit" type="submit"><img src="./img/icon-svg/Icon ionic-ios-send.svg" alt="send"></button>
+							<button class="footer__submit" type="submit"><img
+									src="./img/icon-svg/Icon ionic-ios-send.svg" alt="send"></button>
 						</form>
 					</div>
 				</div>
@@ -324,7 +336,7 @@
 		AOS.init({
 			once: true
 		});
-	  </script>
+	</script>
 </body>
 
 </html>
