@@ -1021,10 +1021,10 @@ button.footer__submit {
         top: -20px;
     }
 
-    .team__text {
+    .team .team-content .team__text {
         margin-top: 50px;
         flex-basis: 100%;
-        transform: translateZ(0) !important;
+        transform: translateZ(0);
     }
 
     .explanation__list {
@@ -1210,13 +1210,13 @@ button.footer__submit {
         padding: 20px 0px;
     }
 
-    .team__circle {
+    .team .team-content .team__circle {
         max-width: 250px;
         width: 100%;
         left: -50px;
         flex-basis: 100%;
         margin: 0 auto;
-        transform: scale(0.7) !important;
+        transform: scale(0.7);
     }
 
     .team-content {
