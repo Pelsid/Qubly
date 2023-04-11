@@ -957,6 +957,14 @@ button.footer__submit {
         opacity: 0.5;
     }
 
+    .team .team-content .team__circle {
+        transform: scale(0.7);
+    }
+
+    .team .team-content .team__text {
+        transform: translateZ(0);
+    }
+
     .feedback__text {
         text-align: center;
         padding: 0px 20px;
@@ -1024,7 +1032,6 @@ button.footer__submit {
     .team .team-content .team__text {
         margin-top: 50px;
         flex-basis: 100%;
-        transform: translateZ(0);
     }
 
     .explanation__list {
@@ -1216,7 +1223,6 @@ button.footer__submit {
         left: -50px;
         flex-basis: 100%;
         margin: 0 auto;
-        transform: scale(0.7);
     }
 
     .team-content {
