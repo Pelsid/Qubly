@@ -180,7 +180,7 @@ input {
 .header__drop-list {
     display: none;
     position: absolute;
-    top: 15px;
+    top: 19px;
     left: -1px;
     width: 120px;
     text-align: left;
@@ -1186,7 +1186,7 @@ button.footer__submit {
 
     .header__link {
         margin: 30px 0px;
-        left: -40px;
+        left: -50px;
         font-size: 20px;
     }
     
