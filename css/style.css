@@ -180,7 +180,7 @@ input {
 .header__drop-list {
     display: none;
     position: absolute;
-    top: 19px;
+    top: 18px;
     left: -1px;
     width: 120px;
     text-align: left;
